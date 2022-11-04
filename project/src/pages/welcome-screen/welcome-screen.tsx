@@ -1,4 +1,4 @@
-import Cards from '../../components/cards/cards';
+import CardComponent from '../../components/card-component/card-component';
 
 type WelcomeScreenProps = {
   amountOrders: number;
@@ -93,11 +93,11 @@ function WelcomeScreen({amountOrders}:WelcomeScreenProps): JSX.Element {
                 </ul>
               </form>Name
               <div className="cities__places-list places__list tabs__content">
-                <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
+                <CardComponent/>
               </div>
             </section>
             <div className="cities__right-section">
